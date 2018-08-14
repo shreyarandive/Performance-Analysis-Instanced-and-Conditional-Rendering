@@ -1,0 +1,29 @@
+﻿  Cube.cpp
+  TechDemo.cpp
+TechDemo.cpp(82): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+TechDemo.cpp(83): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+TechDemo.cpp(85): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+TechDemo.cpp(86): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+TechDemo.cpp(88): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+TechDemo.cpp(148): warning C4838: conversion from 'int' to 'GLuint' requires a narrowing conversion
+TechDemo.cpp(149): warning C4838: conversion from 'int' to 'GLuint' requires a narrowing conversion
+TechDemo.cpp(151): warning C4838: conversion from 'int' to 'GLuint' requires a narrowing conversion
+TechDemo.cpp(293): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
+TechDemo.cpp(294): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
+TechDemo.cpp(295): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
+  imgui_impl_glut.cpp
+  InitShader.cpp
+  LoadTexture.cpp
+  LoadMesh.cpp
+  VideoMux.cpp
+VideoMux.cpp(187): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+VideoMux.cpp(189): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+VideoMux.cpp(233): warning C4244: 'argument': conversion from 'double' to 'int64_t', possible loss of data
+VideoMux.cpp(265): warning C4244: '=': conversion from 'int64_t' to 'int', possible loss of data
+VideoMux.cpp(288): warning C4996: 'avcodec_encode_audio2': was declared deprecated
+  D:\TechDemo\include\libavcodec/avcodec.h(5283): note: see declaration of 'avcodec_encode_audio2'
+VideoMux.cpp(389): warning C4244: 'argument': conversion from 'double' to 'int64_t', possible loss of data
+VideoMux.cpp(412): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+VideoMux.cpp(438): warning C4996: 'avcodec_encode_video2': was declared deprecated
+  D:\TechDemo\include\libavcodec/avcodec.h(5322): note: see declaration of 'avcodec_encode_video2'
+msvcprt.lib(MSVCP140.dll) : fatal error LNK1112: module machine type 'X86' conflicts with target machine type 'x64'

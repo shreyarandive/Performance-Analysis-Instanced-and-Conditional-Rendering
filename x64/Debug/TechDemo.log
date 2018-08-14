@@ -1,0 +1,15 @@
+﻿  TechDemo.cpp
+c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(82): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(83): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(85): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(86): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(88): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(148): warning C4838: conversion from 'int' to 'GLuint' requires a narrowing conversion
+c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(149): warning C4838: conversion from 'int' to 'GLuint' requires a narrowing conversion
+c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(151): warning C4838: conversion from 'int' to 'GLuint' requires a narrowing conversion
+c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(293): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
+c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(294): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
+c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(295): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
+  Cube.cpp
+  Generating Code...
+msvcprtd.lib(MSVCP140D.dll) : fatal error LNK1112: module machine type 'X86' conflicts with target machine type 'x64'
