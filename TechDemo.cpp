@@ -58,11 +58,11 @@ struct PVM_light_uniforms
 
 } PVM_light_data;
 
-static const std::string mesh_name = "deer.obj";
-static const std::string texture_name = "deer.jpg";
+static const std::string mesh_name = "3Dmodels/deer.obj";
+static const std::string texture_name = "3Dmodels/deer.jpg";
 
-static const std::string occluder_name = "Tree_OBJ_1.obj";
-static const std::string o_tex_name = "leaf_Dif.jpg";
+static const std::string occluder_name = "3Dmodels/Tree_OBJ_1.obj";
+static const std::string o_tex_name = "3Dmodels/leaf_Dif.jpg";
 
 MeshData mesh_data;
 MeshData occluder_data;
@@ -120,8 +120,8 @@ GLuint nanoseconds;
 
 MeshData grass_data;
 
-static const std::string grass_mesh = "grass.obj";
-static const std::string grass_texture = "petal.jpg";
+static const std::string grass_mesh = "3Dmodels/grass.obj";
+static const std::string grass_texture = "3Dmodels/petal.jpg";
 
 std::uniform_real_distribution<float> range_for_with_instance(-range_of_instances, range_of_instances);
 std::uniform_real_distribution<float> range_for_without_instance(-range_of_instances, range_of_instances);

@@ -1,15 +1,34 @@
-﻿  TechDemo.cpp
-c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(82): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
-c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(83): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
-c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(85): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
-c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(86): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
-c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(88): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
-c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(148): warning C4838: conversion from 'int' to 'GLuint' requires a narrowing conversion
-c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(149): warning C4838: conversion from 'int' to 'GLuint' requires a narrowing conversion
-c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(151): warning C4838: conversion from 'int' to 'GLuint' requires a narrowing conversion
-c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(293): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
-c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(294): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
-c:\users\hpcglab guest\documents\visual studio 2015\projects\techdemo\techdemo.cpp(295): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
+﻿  VideoMux.cpp
+d:\performance-analysis-instanced-and-conditional-rendering\videomux.cpp(187): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\performance-analysis-instanced-and-conditional-rendering\videomux.cpp(189): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\performance-analysis-instanced-and-conditional-rendering\videomux.cpp(233): warning C4244: 'argument': conversion from 'double' to 'int64_t', possible loss of data
+d:\performance-analysis-instanced-and-conditional-rendering\videomux.cpp(265): warning C4244: '=': conversion from 'int64_t' to 'int', possible loss of data
+d:\performance-analysis-instanced-and-conditional-rendering\videomux.cpp(288): warning C4996: 'avcodec_encode_audio2': was declared deprecated
+  d:\performance-analysis-instanced-and-conditional-rendering\include\libavcodec\avcodec.h(5283): note: see declaration of 'avcodec_encode_audio2'
+d:\performance-analysis-instanced-and-conditional-rendering\videomux.cpp(389): warning C4244: 'argument': conversion from 'double' to 'int64_t', possible loss of data
+d:\performance-analysis-instanced-and-conditional-rendering\videomux.cpp(412): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+d:\performance-analysis-instanced-and-conditional-rendering\videomux.cpp(438): warning C4996: 'avcodec_encode_video2': was declared deprecated
+  d:\performance-analysis-instanced-and-conditional-rendering\include\libavcodec\avcodec.h(5322): note: see declaration of 'avcodec_encode_video2'
+  LoadMesh.cpp
+  LoadTexture.cpp
+  InitShader.cpp
+  imgui_impl_glut.cpp
+  imgui_draw.cpp
+  imgui_demo.cpp
+  imgui.cpp
+  TechDemo.cpp
+d:\performance-analysis-instanced-and-conditional-rendering\techdemo.cpp(82): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+d:\performance-analysis-instanced-and-conditional-rendering\techdemo.cpp(83): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+d:\performance-analysis-instanced-and-conditional-rendering\techdemo.cpp(85): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+d:\performance-analysis-instanced-and-conditional-rendering\techdemo.cpp(86): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+d:\performance-analysis-instanced-and-conditional-rendering\techdemo.cpp(88): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+d:\performance-analysis-instanced-and-conditional-rendering\techdemo.cpp(148): warning C4838: conversion from 'int' to 'GLuint' requires a narrowing conversion
+d:\performance-analysis-instanced-and-conditional-rendering\techdemo.cpp(149): warning C4838: conversion from 'int' to 'GLuint' requires a narrowing conversion
+d:\performance-analysis-instanced-and-conditional-rendering\techdemo.cpp(151): warning C4838: conversion from 'int' to 'GLuint' requires a narrowing conversion
+d:\performance-analysis-instanced-and-conditional-rendering\techdemo.cpp(293): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
+d:\performance-analysis-instanced-and-conditional-rendering\techdemo.cpp(294): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
+d:\performance-analysis-instanced-and-conditional-rendering\techdemo.cpp(295): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
   Cube.cpp
   Generating Code...
+d:\performance-analysis-instanced-and-conditional-rendering\videomux.cpp(532): warning C4700: uninitialized local variable 'audio_codec' used
 msvcprtd.lib(MSVCP140D.dll) : fatal error LNK1112: module machine type 'X86' conflicts with target machine type 'x64'
